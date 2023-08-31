@@ -19,7 +19,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         click = findViewById(R.id.notifyBTN);
+        //    implementation ("com.android.volley:volley:1.2.1") add this in dependency
 
+        //This is for check token of the device
         /*FirebaseMessaging.getInstance().getToken()
                         .addOnCompleteListener(new OnCompleteListener<String>() {
                             @Override
